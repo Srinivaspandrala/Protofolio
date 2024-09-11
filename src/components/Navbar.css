@@ -1,0 +1,31 @@
+.transparent-navbar {
+  background-color: transparent !important;
+}
+
+.transparent-navbar .navbar-nav .nav-link-item {
+  color: white !important;
+  font-family: cursive;
+  font-weight: bold;
+  font-style: italic;
+  align-items: end;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.transparent-navbar .navbar-nav .nav-link-item:hover,
+.transparent-navbar .navbar-nav .nav-link-item:focus {
+  text-decoration: underline #d4b940 2px;
+  
+}
+.nav-name{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #d95d3f;
+  font-weight: bold;
+  font-weight: bold;
+
+}
+/* Right alignment for nav items on large devices */
+@media (min-width: 992px) {
+  .transparent-navbar .navbar-nav {
+    margin-left: auto;
+  }
+}

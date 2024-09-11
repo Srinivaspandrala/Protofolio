@@ -1,0 +1,102 @@
+/* Profile image styling */
+.profile-image {
+    height: 300px;
+    border-radius: 10px; /* Rounded corners */
+    margin-bottom: 20px;
+}
+
+/* Social media icons styling */
+.social-media {
+    transition: transform 0.3s ease, filter 0.3s ease; 
+    display: inline-block;
+}
+
+/* Flexbox layout for social media icons */
+.flex {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Hover effects for social media icons */
+.social-media:hover {
+    transform: scale(1.1); 
+    filter: brightness(1.2); 
+}
+
+/* Hover effect for profile image */
+
+/* Heading styling */
+.home-heading {
+    color: #d4b940;
+    font-size: 2.5rem;
+    margin-top: 20px;
+    padding: 0 15px;
+    white-space: nowrap; /* Prevent wrapping */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Handle overflow if necessary */
+    font-family: cursive;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
+/* Intro text styling */
+.intro-text {
+    color: #d40935;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 60px;
+    white-space: nowrap; /* Prevent wrapping */
+}
+
+/* Paragraph styling */
+.home-par {
+    color: #63376e;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    .home-heading {
+        font-size: 2.2rem;
+    }
+
+    .intro-text {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .home-heading {
+        font-size: 2rem;
+    }
+
+    .intro-text {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 576px) {
+    .home-heading {
+        font-size: 1.8rem;
+    }
+
+    .intro-text {
+        font-size: 40px;
+    }
+
+    .profile-image {
+        height: 250px;
+    }
+
+    .flex {
+        gap: 30px;
+    }
+}

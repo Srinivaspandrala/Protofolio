@@ -1,0 +1,108 @@
+/* General container for the about me section */
+.aboutme-box {
+    border: solid rgb(29, 29, 29) 1px;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 1200px;
+    background-color: #1e1e1e;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling the heading */
+.heading {
+    color: #d40935;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: 'Snell Roundhand', cursive;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Container for about me content */
+.aboutme-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Styling for the profile image */
+.about-image {
+    height: 30vh;
+    width: 30vh;
+    border-radius: 50%;
+    padding: 15px;
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover effect for image */
+.about-image:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+}
+
+/* About me text content */
+.aboutme-content {
+    color: #d4b940;
+    font-size: 1.25rem;
+    text-align: left;
+    font-family: serif;
+    line-height: 1.8;
+    padding: 20px;
+}
+.anchor-link{
+    text-decoration: none;
+    color: inherit;
+    justify-content: end;
+    font-family: cursive;
+}
+.anchor-link img{
+    width: 20px;
+    
+}
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .aboutme-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-image {
+        margin-bottom: 20px;
+        height: 25vh;
+        width: 25vh;
+    }
+
+    .aboutme-content {
+        font-size: 1.1rem;
+        padding: 10px;
+    }
+
+    .heading {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .aboutme-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-image {
+        height: 22vh;
+        width: 22vh;
+    }
+
+    .aboutme-content {
+        font-size: 1rem;
+    }
+
+    .heading {
+        font-size: 2rem;
+    }
+}
