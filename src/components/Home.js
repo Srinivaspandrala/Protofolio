@@ -17,13 +17,13 @@ const Home = () => {
             <p className="home-par">............Full Stack Developer</p>
             <div className="flex">
                 <a href="https://www.instagram.com/srinivas.instaa/">
-                    <img src="https://img.icons8.com/?size=100&id=32323&format=png&color=000000" className="social-media" alt="Instagram" />
+                    <img src="https://img.icons8.com/?size=100&id=32323&format=png&color=000000" className="social-media" style={{height:"50px",width:"50px"}} alt="Instagram" />
                 </a>
                 <a href="https://github.com/Srinivaspandrala">
-                    <img src="https://img.icons8.com/?size=100&id=46565&format=png&color=000000" className="social-media" alt="GitHub" />
+                    <img src="https://img.icons8.com/?size=100&id=46565&format=png&color=000000" className="social-media"  style={{height:"50px",width:"50px"}} alt="GitHub" />
                 </a>
                 <a href="https://www.linkedin.com/in/srinivas-pandrala-1b3518206/">
-                    <img src="https://img.icons8.com/?size=100&id=13930&format=png&color=000000" className="social-media" alt="LinkedIn" />
+                    <img src="https://img.icons8.com/?size=100&id=13930&format=png&color=000000" className="social-media" style={{height:"50px",width:"50px"}} alt="LinkedIn" />
                 </a>
             </div>
         </div>
